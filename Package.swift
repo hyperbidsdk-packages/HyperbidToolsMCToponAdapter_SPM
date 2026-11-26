@@ -16,8 +16,8 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/hyperbidsdk-packages/HyperbidToolsMCSDK_SPM.git", from: "4.2.11"),
-        .package(url: "https://github.com/topon-packages/TPNiOS_SPM.git", exact: "6.5.91")
+        .package(url: "https://github.com/hyperbidsdk-packages/HyperbidToolsMCSDK_SPM.git", from: "4.2.12"),
+        .package(url: "https://github.com/topon-packages/TPNiOS_SPM.git", exact: "6.5.86")
     ],
     targets: [
         .target(
@@ -31,8 +31,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "HyperbidToolsMCToponAdapterBinary",
-            url: "https://topon-sdk-release.oss-cn-hangzhou.aliyuncs.com/MCSDK/iOS/v4.2.11/overseas/sdks/MCSDKToponAdapter-6.5.73.1.zip",
-            checksum: "9c5312c72c193b85c2b1106ae0ab92a0bb1ecc111ab33f9ba52833ab3a60d013"
+            url: "https://topon-sdk-release.oss-cn-hangzhou.aliyuncs.com/MCSDK/iOS/v4.2.12/overseas/sdks/MCSDKToponAdapter-605.86.0.zip",
+            checksum: "83d480b3b978acfe03a2132127c42131c2ba723c405a58cb9fe77fa7d1b090f3"
         )
     ]
 )
